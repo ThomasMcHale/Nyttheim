@@ -48,7 +48,7 @@ public class TerrainGenerator : MonoBehaviour {
         }
 
         // Add a basic character to the game
-        GameObject character = (GameObject)Instantiate(Resources.Load("Prefabs/Characters/Villagers/Lumberjack1"));
+        GameObject character = (GameObject)Instantiate(Resources.Load("Prefabs/Characters/Villagers/Villager"));
         character.name = "Villager";
         character.transform.SetParent(characters.transform);
         character.transform.position = new Vector3(15, 3, 15);
