@@ -16,6 +16,6 @@ public class ResourceUIHandler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		woodText.text = "Wood: " + currentWood + "/" + maxWood;
+		woodText.text = currentWood + "/" + maxWood;
 	}
 }
